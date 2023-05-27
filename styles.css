@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: gainsboro;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.display {
+    background-color: ghostwhite;
+    padding: 20px;
+    height: 50px;
+    width: 275px;
+    font-size: 32px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    margin: 20px;
+    font-size: 0;
+}
+
+.standard {
+    width: 75px;
+    height: 75px;
+}
+
+.wide {
+    width: 154px;
+    height: 75px;
+}
+
+.long {
+    width: 75px;
+    height: 154px;
+}
+
+button {
+    margin: 2px;
+    font-size: 24px;
+}
